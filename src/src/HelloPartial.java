@@ -17,4 +17,8 @@ public class HelloPartial {
         System.out.println("methodC");
     }
 
+
+    private void methodE(){
+        System.out.println("methodE");
+    }
 }
