@@ -8,6 +8,7 @@ public class HelloPartial {
     //&begin(FeatureA)
     private void methodA(){
         System.out.println("methodA");
+		System.out.println("methodA2");
     }
     //&end(FeatureA)
     
