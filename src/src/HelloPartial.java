@@ -5,10 +5,12 @@ public class HelloPartial {
         methodA();
     }
 
+    //&begin(FeatureA)
     private void methodA(){
         System.out.println("methodA");
     }
-
+    //&end(FeatureA)
+    
     private void methodB(){
         System.out.println("methodB");
     }
