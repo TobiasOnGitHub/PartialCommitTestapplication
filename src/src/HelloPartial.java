@@ -7,7 +7,7 @@ public class HelloPartial {
 
     //&begin(FeatureA)
     private void methodA(){
-		System.out.println("New Method here1");
+		System.out.println("New Method here2");
     }
     //&end(FeatureA)
     
