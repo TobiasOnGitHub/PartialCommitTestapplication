@@ -9,10 +9,11 @@ public class HelloCommit {
         System.out.println("commitB");
     }
 
+	//&begin(FeatureA)
     private void commitC(){
         System.out.println("commitC");
     }
-
+	//&end(FeatureA)
 
     private void commitE(){
 		//&begin(FeatureC)

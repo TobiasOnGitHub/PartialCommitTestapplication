@@ -10,6 +10,7 @@ public class HelloPartial {
 		System.out.println("New Method here1");
 		System.out.println("New Method here2");
 		System.out.println("New Method here3");
+		System.out.println("New Method here4");
     }
     //&end(FeatureA)
     
@@ -25,5 +26,12 @@ public class HelloPartial {
     private void methodE(){
         System.out.println("methodE");
 		System.out.println("methodE2");
+		System.out.println("methodE3");
     }
+	
+	//&begin(FeatureA)
+	private void methodC(){
+        System.out.println("methodC");
+    }
+	//&end(FeatureA)
 }
