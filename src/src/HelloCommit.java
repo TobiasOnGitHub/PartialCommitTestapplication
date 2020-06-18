@@ -27,7 +27,7 @@ public class HelloCommit {
     	System.out.println("Run runTestScenario1 with i=" +i);
     	
     	commitC();
-    	 
+    	  
     	if(i%2==0) {
     		return true;
     	} else {

@@ -10,7 +10,7 @@ class HelloCommitTest {
 		HelloCommit hello = new HelloCommit();
 		boolean retVal = hello.runTestScenario1(4);
 		assertEquals(retVal, true); 
-	}
+	} 
 	//&end(FeatureTestScenario1)
 	
 }
