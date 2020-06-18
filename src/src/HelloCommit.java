@@ -26,8 +26,12 @@ public class HelloCommit {
     protected boolean runTestScenario1(int i) {
     	System.out.println("Run runTestScenario1 with i=" +i);
     	
+    	if(i==0) {
+    		return true;
+    	}
+    	
     	commitC();
-    	  
+    	 
     	if(i%2==0) {
     		return true;
     	} else {
