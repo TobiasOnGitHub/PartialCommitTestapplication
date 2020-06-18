@@ -30,7 +30,7 @@ public class HelloFeature {
 		} else if (y==1) {
 			return x*1;
 		} else if (y==2) {
-			x += Math.random(); //&line[FeatureTestScenario4]
+			x += Math.random()*2; //&line[FeatureTestScenario4]
 			return x*2;
 		} else if (y==3) {
 			return x*3;
