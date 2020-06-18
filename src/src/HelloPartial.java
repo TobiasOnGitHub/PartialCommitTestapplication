@@ -1,10 +1,5 @@
 public class HelloPartial {
 
-    public void main(String[] args) {
-        System.out.println("Make prints in different methods to simulate partial commits.");
-        methodA();
-    }
-
     //&begin(FeatureA)
     private void methodA(){
 		System.out.println("New Method here1");
