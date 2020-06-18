@@ -30,7 +30,7 @@ public class HelloPartial {
     }
 	
 	//&begin(FeatureA)
-	private void methodC(){
+	private void methodC1(){
         System.out.println("methodC");
     }
 	//&end(FeatureA)

@@ -21,4 +21,18 @@ public class HelloCommit {
 		System.out.println("commitE1");
 		//&end(FeatureC)
     }
+    
+    //&begin(FeatureTestScenario1)
+    protected boolean runTestScenario1(int i) {
+    	System.out.println("Run runTestScenario1 with i=" +i);
+    	
+    	commitC();
+    	 
+    	if(i%2==0) {
+    		return true;
+    	} else {
+    		return false;
+    	}
+    }
+    //&end(FeatureTestScenario1)
 }
