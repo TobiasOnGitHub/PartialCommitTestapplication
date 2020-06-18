@@ -29,6 +29,13 @@ public class HelloPartial {
 		System.out.println("methodE3");
     }
 	
+    //&begin(FeatureTestScenario2)
+    protected int runTestScenario2(int i, int j) {
+    	System.out.println("Run runTestScenario1 with i=" +i +" j=" +j);
+    	return i*j;
+    }
+    //&end(FeatureTestScenario2)
+    
 	//&begin(FeatureA)
 	private void methodC1(){
         System.out.println("methodC");
