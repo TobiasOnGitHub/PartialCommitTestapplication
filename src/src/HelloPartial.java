@@ -1,10 +1,5 @@
 public class HelloPartial {
 
-    public void main(String[] args) {
-        System.out.println("Make prints in different methods to simulate partial commits.");
-        methodA();
-    }
-
     //&begin(FeatureA)
     private void methodA(){
 		System.out.println("New Method here1");
@@ -29,8 +24,18 @@ public class HelloPartial {
 		System.out.println("methodE3");
     }
 	
+    //&begin(FeatureTestScenario2)
+    protected int runTestScenario2(int i, int j) {
+    	System.out.println("Run runTestScenario1 with i=" +i +" j=" +j);
+    	if(i==0||j==0) {
+    		return 0;
+    	}
+    	return i*j;
+    }
+    //&end(FeatureTestScenario2)
+    
 	//&begin(FeatureA)
-	private void methodC(){
+	private void methodC1(){
         System.out.println("methodC");
     }
 	//&end(FeatureA)
