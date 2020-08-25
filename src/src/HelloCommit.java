@@ -11,7 +11,7 @@ public class HelloCommit {
 
 	//&begin(FeatureA)
     private void commitC(){
-        System.out.println("FeatureA - commitC");
+        System.out.println("FeatureA - commitA");
     }
 	//&end(FeatureA)
 
