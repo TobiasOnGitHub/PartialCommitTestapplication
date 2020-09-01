@@ -5,7 +5,6 @@ public class HelloPartial {
 		System.out.println("New Method here1");
 		System.out.println("New Method here2");
 		System.out.println("New Method here3");
-		System.out.println("New Method here4");
     }
     //&end(FeatureA)
     
