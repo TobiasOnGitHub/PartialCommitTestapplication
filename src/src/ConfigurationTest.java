@@ -9,4 +9,8 @@ class ConfigurationTest {
     @org.junit.jupiter.api.Test
     void getSendCoinsAutoclose() {
     }
+
+    @org.junit.jupiter.api.Test
+    void getSendCoinsManual() {
+    }
 }
